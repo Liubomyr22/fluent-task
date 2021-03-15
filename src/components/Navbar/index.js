@@ -48,9 +48,13 @@ const Navbar = () => {
     return <div className={NavbarStyles}>
         {icons.map(element => {
             return <div >
-                <Flex column>
+                <Flex>
+                <Flex column hAlign="center" padding="padding.medium">
                 {element.icon}
+                <Flex hAlign="center">
                 {element.label}
+                </Flex>
+                </Flex>
                 </Flex>
                 </div>
         })}
