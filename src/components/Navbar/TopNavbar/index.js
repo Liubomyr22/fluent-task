@@ -19,7 +19,7 @@ const TopNavbar = ({setOpenDashBoard,setOpenSettings}) => {
         <CircleIcon size="largest" background="blue" />
         <h2>Intranet</h2>
         <div onClick={ ()=>setOpenDashBoard(true)}>Dashboard</div>
-        <div onClick={ ()=>setOpenSettings(true)}>Settings</div>
+        <div onMouseOver={ ()=>setOpenSettings(true)}>Settings</div>
         <AddIcon />
         </Flex>
         <Flex vAlign="center"gap="gap.small" >
