@@ -3,22 +3,22 @@ import { Accordion } from '@fluentui/react-northstar'
 
 
 const subPanels = [
-    {
-        key: 'd',
-        title: 'Sub navigation item 1',
-        content: 'Sub sub navigation item 1',
-      },
-      {
-        key: 'd',
-        title: 'Sub navigation item 2',
-        content: 'Sub sub navigation item 2',
-      },
+  {
+    key: 'd',
+    title: 'Sub navigation item 1',
+    content: 'Sub sub navigation item 1',
+  },
+  {
+    key: 'd',
+    title: 'Sub navigation item 2',
+    content: 'Sub sub navigation item 2',
+  },
 ]
 
 export const AccordionRecursion = () => {
-    return <>
-      <Accordion panels={subPanels} />
-    </>
+  return <>
+    <Accordion panels={subPanels} />
+  </>
 }
 
 const panels = [
@@ -54,6 +54,6 @@ const panels = [
   },
 ]
 
-const AccordionExample = () => <Accordion  panels={panels} />
+const AccordionExample = () => <Accordion panels={panels} />
 
 export default AccordionExample

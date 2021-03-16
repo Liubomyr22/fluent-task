@@ -10,7 +10,7 @@ const InsideSettings = () => {
                 <Flex column gap="gap.small" vAlign="center">
                     <Flex column >
                         <Header as="h2" content="Configure Navigation" />
-                        <Text  content="The Mega Menu can be configured here" />
+                        <Text content="The Mega Menu can be configured here" />
                     </Flex>
                     <Header as="h4" content="Add Navigation Entries" />
                     <Text content="Here is an example how a section can be used to group input." />
