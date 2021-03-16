@@ -48,7 +48,7 @@ const Navbar = () => {
     return <div className={NavbarStyles}>
         {icons.map(element => {
             return <div >
-                <Flex>
+                <Flex styles={{background:"silver"}} hAlign="center">
                 <Flex column hAlign="center" padding="padding.medium">
                 {element.icon}
                 <Flex hAlign="center">
