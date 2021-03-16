@@ -5,7 +5,7 @@ import AccordionExample from '../Acordion';
 
 const InsideSettings = () => {
     return <>
-        <Flex gap="gap.medium" padding="padding.medium" debug>
+        <Flex gap="gap.medium" padding="padding.medium" debug margin="-10px">
             <Flex.Item >
                 <Flex column gap="gap.small" vAlign="center">
                     <Flex column >

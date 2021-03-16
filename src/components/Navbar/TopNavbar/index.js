@@ -28,8 +28,6 @@ const TopNavbar = ({setOpenDashBoard,setOpenSettings}) => {
         <Dropdown  inverted items={inputItems} placeholder="Meet" fluid={true} /> 
         </Flex>
         </Flex>
-        <Grid>
-        </Grid>
         </>
 }
 

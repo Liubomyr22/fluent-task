@@ -49,6 +49,7 @@ function App() {
               || openSettings && <Settings setOpenSettings={setOpenSettings} />}
             inverted
             styles={{
+              paddingBottom: '0rem',
               gridColumn: 'span 11',
             }}
           />
