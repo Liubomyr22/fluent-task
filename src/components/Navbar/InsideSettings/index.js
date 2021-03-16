@@ -5,9 +5,9 @@ import AccordionExample from '../Acordion';
 
 const InsideSettings = () => {
     return <>
-        <Flex gap="gap.medium" padding="padding.medium" debug margin="-10px">
+        <Flex gap="gap.medium" padding="padding.medium" debug >
             <Flex.Item >
-                <Flex column gap="gap.small" vAlign="center">
+                <Flex column gap="gap.small" vAlign="center" padding="padding.medium">
                     <Flex column >
                         <Header as="h2" content="Configure Navigation" />
                         <Text content="The Mega Menu can be configured here" />

@@ -1,7 +1,5 @@
 import React from 'react';
-import { Dropdown,Flex,AddIcon,CircleIcon,MoreIcon,ExclamationCircleIcon, Grid } from '@fluentui/react-northstar'
-import DashBoard from '../DashBoard';
-  
+import { Dropdown,Flex,AddIcon,CircleIcon,MoreIcon,ExclamationCircleIcon } from '@fluentui/react-northstar'
 
 const inputItems = [
     'Bruce Wayne',
@@ -14,8 +12,8 @@ const TopNavbar = ({setOpenDashBoard,setOpenSettings}) => {
     
 
     return <>
-    <Flex space="between">
-        <Flex gap="gap.small" vAlign="center">
+    <Flex space="between" wrap="true">
+        <Flex gap="gap.small" vAlign="center" wrap="true">
         <CircleIcon size="largest" background="blue" />
         <h2>Intranet</h2>
         <div onClick={ ()=>setOpenDashBoard(true)}>Dashboard</div>

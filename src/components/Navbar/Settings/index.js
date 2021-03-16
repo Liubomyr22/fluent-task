@@ -26,7 +26,6 @@ const Settings = ({ setOpenSettings }) => {
         onExit={() => setOpenSettings(false)}
         data={[...settingsData]}
     />
-
 }
 
 export default Settings;

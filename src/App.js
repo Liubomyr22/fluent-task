@@ -15,7 +15,7 @@ function App() {
       <Grid columns="repeat(6, 1fr)" >
         <Segment
           color="brand"
-          content={<Input styles={{
+          content={<Input fluid="true" styles={{
             alignItems: "center", width: "100%"
           }} />}
           inverted
